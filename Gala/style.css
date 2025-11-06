@@ -1,0 +1,202 @@
+/*Genreal Styles*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: rgb(68, 66, 66);
+    color: #d4af37;
+    text-align: center;
+}
+
+body h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background: var(--bg);
+    background-color: #333;
+    color: #d4af37;
+    padding: 10px 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    margin-top: 0.1rem;
+    
+}
+
+/*logo*/
+.navbar{
+    height: 10%;
+    width: 10%;
+    display: flex;
+    padding: 10px 20px;
+    color: #d4af37;
+}
+
+/*Links*/
+.navbar nav a{
+    color: #d4af37;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.navbar nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+}
+
+.navbar nav a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+.hero-video{
+    align-self: start;
+    width: 100%;
+    
+}
+.hero-video h3{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #d4af37;
+    background: #636c7734;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+.hero-video h4{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    color: #d4af37;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+/*button*/
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+.btn:hover{
+    letter-spacing: .3rem;
+}
+
+/*About Section*/
+.about-container{
+    text-align: center;
+    font-family: 'Arial Narrow Bold';
+}
+.about-container img{
+    width: 10%;
+}
+/*Service section*/
+.services-container{
+    font: 1em sans-serif;
+}
+.services-container p{
+    text-align: justify;
+    text-decoration: underline;
+}
+.services-container ul{
+    text-align: justify;
+}
+/*Contact Section*/
+.contact-container{
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0,0,0.1);
+    width: 100%;
+    max-width: 450px;
+    border: 2px solid;
+}
+
+.contact-container h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.form-group label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/*Footer*/
+.footer-distributed{
+    background-color: #333;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px Cinzel;
+    padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p{
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-distributed p.footer-links{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+}
+ .footer-distributed p.footer-links a{
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    padding-right: 5px;
+ }
+
+ .footer-distributed .footer-right{
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+ }
+
+ .footer-distributed .footer-right a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    transition: all .25s
+ }
+ .footer-distributed .footer-right a:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+ }
+
+ .footer-distributed .footer-left a:hover{
+    text-decoration: underline;
+    color: chartreuse;
+ }
+ 
